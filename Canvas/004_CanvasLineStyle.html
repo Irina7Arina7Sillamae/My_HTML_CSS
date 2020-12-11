@@ -13,7 +13,7 @@
 			var context = canvas.getContext("2d");
 
 			context.save();
-			context.translate(100, 100);
+			context.translate(50, 50);
 
 			// начало пути.
 			context.beginPath();
@@ -24,8 +24,8 @@
 			context.closePath();
 
 			// настройка стилей линии.
-			context.lineWidth = 8;
-			context.strokeStyle = "green";
+			context.lineWidth = 15;
+			context.strokeStyle = "yellow";
 			context.lineJoin = "bevel";
 			context.stroke();
 
@@ -38,7 +38,7 @@
 	</script>
 </head>
 <body>
-	<canvas id="canvas" height="300" width="300" style="border: solid 1px black;">
+	<canvas id="canvas" height="300" width="300" style="border: solid 5px black;">
 		Ваш браузер не поддерживает элемент <b>Canvas</b>
 	</canvas>
 </body>

@@ -14,11 +14,29 @@
 
 			// создание пути.
 			context.beginPath();
-			context.moveTo(100, 100);
+			context.moveTo(100, 100)
 			context.lineTo(200, 200);
 
 			// черчение линии на холсте.
 			context.stroke();
+
+			context.beginPath();
+			context.moveTo(0, 300)
+			context.lineTo(300, 0);
+
+			// черчение линии на холсте.
+			context.stroke();
+
+			context.beginPath();
+			context.moveTo(0, 150)
+			context.lineTo(300, 150);
+			context.stroke();
+
+			context.beginPath();
+			context.moveTo(150, 0)
+			context.lineTo(150, 300);
+			context.stroke();
+
 		}
 
 		if (window.addEventListener)
